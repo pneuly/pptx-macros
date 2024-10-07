@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<ribbon startFromScratch="false">
+    <tabs>
+        <tab id="MyTab1" label="Macros">
+            <group id="Group1" label="Group1">
+                <button id="Button1-1" label="RemoveUnusedSlideMasters" imageMso="MacroPlay" size="normal" onAction="RemoveUnusedSlideMasters" />
+            </group>
+        </tab>
+    </tabs>
+</ribbon>
+</customUI>
